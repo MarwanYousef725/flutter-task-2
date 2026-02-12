@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:project1/activity2.dart';
+import 'package:project1/assignment.dart';
 import 'package:project1/screen2.dart';
+import 'package:project1/task3.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(textTheme: GoogleFonts.notoKufiArabicTextTheme()),
-      home: Screen2(),
+      home: Task3(),
     );
   }
 }
